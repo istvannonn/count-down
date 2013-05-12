@@ -1,0 +1,456 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+	color:#8c489f;
+}
+
+html {
+	height:100%;
+}
+
+body {
+    font-size: 1em;
+}
+
+::-moz-selection {
+    background: #037dd3;
+    text-shadow: #;
+}
+
+::selection {
+    background: #037dd3;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    padding: 0;
+}
+
+hr.bottom-style {
+	background:#c3c3e5;
+	height:2px;
+	width:100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* ===========
+    ALL: Main
+   =========== */
+
+header {
+    border-bottom: 2px solid #443266;
+	height:120px;
+	position:relative;
+}
+
+	.logo {
+		bottom:20px;
+		left:0;
+		position:absolute;
+	}
+	
+	.social-icons {
+		bottom:20px;
+		display:inline;
+		list-style:none;
+		margin:0;
+		position:absolute;
+		right:0;
+	}
+	
+	.social-icons li {
+		background:url(../img/social-sprite.png);
+		float:left;
+		height:35px;
+		margin:0 0 0 27px;
+		position:relative;
+		text-indent:-9999px;
+		width:35px;
+	}
+	
+	.social-icons li a {
+		display:block;
+		height:35px;
+	}
+
+	.social-icons li.gplus {
+		background-position: 0 0;
+	}
+	.social-icons li.gplus:hover {
+		background-position: 0 35px;
+	}
+
+	.social-icons li.twitter {
+		background-position: 70px 0;
+	}
+
+	.social-icons li.twitter:hover {
+		background-position: 70px 35px;
+	}
+
+	.social-icons li.facebook {
+		background-position: 35px 0;
+	}
+
+	.social-icons li.facebook:hover {
+		background-position: 35px 35px;
+	}
+
+
+article {
+	margin:0 124px;
+	text-align:center;
+}
+	
+	.article-header {
+		margin:80px 0 0;
+	}
+	
+	section {
+		display:block;
+		margin:40px 0;
+		overflow:hidden;
+	}
+	
+	.article-footer form {
+		position:relative;
+	}
+		
+		.subscribeto {
+			border:1px solid #c3c3e5;
+			font-size:18px;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-weight:300;
+			padding:14px 10px 14px 20px;
+			width:700px;
+		}
+		
+		.submit {
+			background:#f1f0ff;
+			border:1px solid #c3c3e5;
+			padding:11px 30px;
+			position:absolute;
+			right:10px;
+			text-transform:uppercase;
+			top:5px;
+		}
+		
+	.contact-form {
+		background:#fff;
+		border:1px solid #c3c3e5;
+		margin:40px 0 0;
+		padding:0 20px;
+		position:relative;
+		text-align:left;
+	}
+		
+		.contact-form h3 {
+			border-bottom:1px solid #f1f0ff;
+		}
+			
+		.mail-icon {
+			background:url(../img/mail.png) no-repeat;
+			height:46px;
+			position:absolute;
+			right:20px;
+			top:-8px;
+			width:40px;
+		}
+		.mail-icon-close {
+			background-position:-40px 0;
+		}
+		.mail-icon-open {
+			background-position:0 0;
+		}
+		
+		.trigger {
+			margin:30px 0;
+		}
+		
+		.error-msg p.error, .error-msg p.success {
+			background-color: red;
+			color: white;
+			font-size: 14px;
+			font-weight: bold;
+			margin:0 0 8px;
+			padding: 3px 20px;
+		}
+		
+		.error-msg p.success {
+			background-color: green;
+		}
+		
+		.trigger input, .trigger textarea {
+			color:#c3c3e5;
+			border:1px solid #f1f0ff;
+			font-family:'Source Sans Pro';
+			font-size:18px;
+			font-weight:200!important;
+			margin:0 0 15px;
+			padding:12px 20px;
+			width:298px;
+		}
+		
+		.trigger textarea {
+			float:right;
+			height:140px;
+			resize:none;
+		}
+		
+		.trigger input.send {
+			background:#f1f0ff;
+			color:#443266;
+			margin:0;
+			padding:6px 20px;
+			width:340px;
+		}
+	
+footer {
+    border-top: 1px solid #443266;
+	font-size:12px;
+	margin:40px 0 0;
+	padding:0 0 40px;
+	text-align:center;
+}
+
+footer p {
+	font-size:1em;
+	margin:20px 0;
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    article {
+    }
+
+}
+
+@media only screen and (min-width: 1026px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 980px;
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
